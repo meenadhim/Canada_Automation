@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TNRegister Para Suite">
+
+<parameter name="browser" value="chrome"/>
+<parameter name="url" value="http://tutorialsninja.com/demo"/>
+<parameter name="LinkMyAccount" value="My Account"/>
+<parameter name="LinkRegister" value="Register"/>
+<parameter name="LinkFirstName" value="//input[@id='input-firstname']"/>
+<parameter name="LinkLastName" value="//input[@id='input-lastname']"/>
+<parameter name="LinkEmail" value="//input[@id='input-email']"/>
+<parameter name="LinkTelephone" value="//input[@id='input-telephone']"/>
+<parameter name="Linkpassword" value="//input[@id='input-password']"/>
+<parameter name="LinkpasswordConfirm" value="//input[@id='input-confirm']"/>
+<parameter name="FirstName" value="Selenium"/>
+<parameter name="LastName" value="Panda"/>
+<parameter name="Email" value="seleniumpanda@gmail.com"/>
+<parameter name="Telephone" value="9876543210"/>
+<parameter name="password" value="Selenuim@123"/>
+<parameter name="passwordConfirm" value="Selenium@123"/>
+<parameter name="PolicyButton" value="//input[@name= 'agree']"/>
+<parameter name="ContinueButton" value="input.btn.btn-primary"/>
+
+
+
+
+
+  <test name="TN Register Para Test">
+  <classes>
+  <class name ="testNG_code_Parameterization_30th_April_2023.TNRegister_Parameterize"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

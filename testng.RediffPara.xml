@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Rediff Para Suite">
+
+<parameter name="browser" value="chrome" />
+<parameter name="url" value="https://mail.rediff.com/cgi-bin/login.cgi" />
+<parameter name="username" value="seleniumpanda@rediffmail.com" />
+<parameter name="password" value="Selenium@123" />
+<parameter name="locatorUsername" value="login1" />
+<parameter name="locatorPassword" value="password" />
+<parameter name="locatorSigninButton" value="signinbtn" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <test name="Rediff Para Test">
+    <classes>
+      <class name="testNG_code_Parameterization_30th_April_2023.Rediff_Parameterize"/>
+    </classes>
+  </test> <!--  -->
+</suite> <!-- Suite -->

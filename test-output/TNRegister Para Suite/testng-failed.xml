@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TNRegister Para Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="Email" value="seleniumpanda@gmail.com"/>
+  <parameter name="PolicyButton" value="//input[@name= &#039;agree&#039;]"/>
+  <parameter name="linkpassword" value="//input[@id=&#039;input-password&#039;]"/>
+  <parameter name="Telephone" value="9876543210"/>
+  <parameter name="FirstName" value="Selenium"/>
+  <parameter name="ContinueButton" value="input.btn.btn-primary"/>
+  <parameter name="LinkEmail" value="//input[@id=&#039;input-email&#039;]"/>
+  <parameter name="url" value="http://tutorialsninja.com/demo"/>
+  <parameter name="LinkMyAccount" value="My Account"/>
+  <parameter name="LinkTelephone" value="//input[@id=&#039;input-telephone&#039;]"/>
+  <parameter name="password" value="Selenuim@123"/>
+  <parameter name="LinkRegister" value="Register"/>
+  <parameter name="LinkLastName" value="//input[@id=&#039;input-lastname&#039;]"/>
+  <parameter name="passwordConfirm" value="Selenium@123"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="LinkFirstName" value="//input[@id=&#039;input-firstname&#039;]"/>
+  <parameter name="LinkpasswordConfirm" value="//input[@id=&#039;input-confirm&#039;]"/>
+  <parameter name="LastName" value="Panda"/>
+  <test thread-count="5" name="TN Register Para Test(failed)">
+    <classes>
+      <class name="testNG_code_Parameterization_30th_April_2023.TNRegister_Parameterize">
+        <methods>
+          <include name="teardown"/>
+          <include name="TNRegisterTest"/>
+        </methods>
+      </class> <!-- testNG_code_Parameterization_30th_April_2023.TNRegister_Parameterize -->
+    </classes>
+  </test> <!-- TN Register Para Test(failed) -->
+</suite> <!-- Failed suite [TNRegister Para Suite] -->

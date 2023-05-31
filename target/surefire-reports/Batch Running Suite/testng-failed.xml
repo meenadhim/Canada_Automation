@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Batch Running Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Batch Running Test(failed)" verbose="0">
+    <classes>
+      <class name="testNG_Code_Batch_Running.TN_LoginTest">
+        <methods>
+          <include name="TNLoginDetails" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNG_Code_Batch_Running.TN_LoginTest -->
+      <class name="testNG_Code_Batch_Running.TN_Register_Test">
+        <methods>
+          <include name="TnRegister" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNG_Code_Batch_Running.TN_Register_Test -->
+      <class name="testNG_Code_Batch_Running.RediffLoginTest">
+        <methods>
+          <include name="rediffLogin"/>
+        </methods>
+      </class> <!-- testNG_Code_Batch_Running.RediffLoginTest -->
+    </classes>
+  </test> <!-- Batch Running Test(failed) -->
+</suite> <!-- Failed suite [Batch Running Suite] -->
